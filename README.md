@@ -9,7 +9,7 @@ Commandline tool to control a Danfoss Eco device
 - I assume there has been set no PIN
 
 # Installation on Windows
-git clone 
+git clone https://github.com/AIXruth/Danfoss_connect.git
 git clone https://github.com/AIXruth/xxtea-nodejs.git
 download, install and start Zadig from https://zadig.akeo.ie/
 -	Replace the current driver with the WinUSB driver
