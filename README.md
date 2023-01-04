@@ -1,7 +1,7 @@
 # Danfoss_connect
 Commandline tool to control a Danfoss Eco device
 
-#Pre-requisites:
+# Pre-requisites:
 -	You will need a Danfoss ECO device
 -	according https://github.com/noble/node-bluetooth-hci-socket#windows you will need a specific bluetooth adapter
 -	I assume npm and python environment has been installed
