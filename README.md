@@ -9,11 +9,11 @@ Commandline tool to control a Danfoss Eco device
 - I assume there has been set no PIN
 
 # Installation on Windows
-git clone https://github.com/AIXruth/Danfoss_connect.git
-git clone https://github.com/AIXruth/xxtea-nodejs.git
-download, install and start Zadig from https://zadig.akeo.ie/
--	Replace the current driver with the WinUSB driver
-add a file called skey.js with content:
+- git clone https://github.com/AIXruth/Danfoss_connect.git  
+- git clone https://github.com/AIXruth/xxtea-nodejs.git  
+- download, install and start Zadig from https://zadig.akeo.ie/  
+   Replace the current driver with the WinUSB driver
+- add a file called skey.js with content:  
   module.exports = { SECRETHEXKEY = "<your_key_from_device>" } 
 
 Usage:
