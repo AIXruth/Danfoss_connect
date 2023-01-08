@@ -49,7 +49,11 @@ noble.on('discover', peripheral => {
                 })
                 .then(result => {
                     // console.log(result);
-                    return setValue(peripheral, consts.TEMPERATURE.SERVICE, consts.TEMPERATURE.CHARACTERISTIC);
+                    if ( desiredTemp != 0 ) {
+                        return setValue(peripheral, consts.TEMPERATURE.SERVICE, consts.TEMPERATURE.CHARACTERISTIC);
+                    } else {
+                        return;
+                    }
                 })
                 // .then(result => {
                 //     // console.log(result);
